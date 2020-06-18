@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:ColumnResizeSample;assembly=ColumnResizeSample"
+             x:Class="ColumnResizeSample.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:MainPageViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button
+            Grid.Row="0"
+            HeightRequest="150"
+            Text="Change Data"
+            Command="{Binding ChangeDataCommand}">
+        </Button>
+
+        <CollectionView
+            Grid.Row="1"
+            VerticalOptions="FillAndExpand"
+            ItemsSource="{Binding MyList}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnSpacing="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label
+                            Grid.Column="0"
+                            Text="{Binding .}"
+                            HorizontalTextAlignment="Start"
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="Green"
+                            SizeChanged="Label_Value_SizeChanged">
+                        </Label>
+
+                        <BoxView
+                            Grid.Column="1"
+                            VerticalOptions="FillAndExpand"
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="Red">
+                        </BoxView>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,14 @@
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\bin\Debug\netstandard2.0\ColumnResizeSample.deps.json
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\bin\Debug\netstandard2.0\ColumnResizeSample.dll
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\bin\Debug\netstandard2.0\ref\ColumnResizeSample.dll
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\bin\Debug\netstandard2.0\ColumnResizeSample.pdb
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\obj\Debug\netstandard2.0\ColumnResizeSample.csprojAssemblyReference.cache
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\obj\Debug\netstandard2.0\ColumnResizeSample.AssemblyInfoInputs.cache
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\obj\Debug\netstandard2.0\ColumnResizeSample.AssemblyInfo.cs
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\obj\Debug\netstandard2.0\ColumnResizeSample.csproj.CoreCompileInputs.cache
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\obj\Debug\netstandard2.0\XamlC.stamp
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\obj\Debug\netstandard2.0\ColumnResizeSample.dll
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\obj\Debug\netstandard2.0\ref\ColumnResizeSample.dll
+C:\proj\Samples\iOSBug\ColumnResizeSample\ColumnResizeSample\ColumnResizeSample\obj\Debug\netstandard2.0\ColumnResizeSample.pdb
